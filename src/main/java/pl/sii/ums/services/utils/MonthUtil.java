@@ -1,5 +1,6 @@
 package pl.sii.ums.services.utils;
 
+//Klasa pomocnicza do pobierania nazwy miesiąca lub liczby porządkowej miesiąca
 public class MonthUtil {
 	
 	public static int getMonthNumberFromName(String monthName) {

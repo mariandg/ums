@@ -8,6 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableJpaAuditing
 public class UserManagementSystemApplication {
 	
+	//Główna metoda odpowiedzialna za uruchomienie metody.
 	public static void main(String[] args) {
 		SpringApplication.run(UserManagementSystemApplication.class, args);
 	}

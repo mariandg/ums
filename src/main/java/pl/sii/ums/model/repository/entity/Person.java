@@ -10,6 +10,7 @@ import javax.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
+//Klasa Encji, odpowiedzialna za utworzenia mapowania obiektu Java z tabelą w bazie danych
 @Entity
 @Table(name="Person")
 public class Person {

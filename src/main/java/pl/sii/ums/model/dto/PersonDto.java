@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+//Adnotacje @Getter, @Setter, @AllArgsConstructor, @NoArgsConstructor, odowiedzialne są za automatyczne tworzenie
+//getterów, setterów i konstruktorów, wywodzą się z biblioteki Lombok
 @AllArgsConstructor(access = AccessLevel.PUBLIC)
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
 public class PersonDto {

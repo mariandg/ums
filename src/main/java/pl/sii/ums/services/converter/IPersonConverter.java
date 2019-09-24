@@ -8,6 +8,8 @@ import pl.sii.ums.model.repository.entity.Person;
 //warto. Rozumiem, że w przypadku niestandardowych funkcji (nie generycznych) można tu dodać metody,
 //Ale dla obiektów bez skomplikowanych transformat czy dobrą praktyką jest robienie pustego interfejsu 
 //pośredniczącego pomiędzy generykiem a klasą implementującą zestaw metod z interfejsu
+
+//
 public interface IPersonConverter extends IGenericConverter<Person, PersonDto> {
 
 }

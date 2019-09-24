@@ -12,6 +12,9 @@ import pl.sii.ums.model.repository.entity.Person;
 import pl.sii.ums.services.converter.impl.PersonConverter;
 import pl.sii.ums.services.db.IPersonService;
 
+//Serwis pobierający dane z bazy danych oraz konwertujący DAO - > DTO
+//Dodatkowo w tej warstwie powinny znależć się metody odpowiedzialne 
+//Za implementację logiki biznesowej
 @Service
 public class PersonServiceImpl implements IPersonService{
 	
